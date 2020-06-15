@@ -1,0 +1,17 @@
+<%- include ("partials/header") %>
+
+<link rel="stylesheet" type="text/css" href="/statuschanged.css">
+
+<p id="heading">
+	You have <%= person.stat %> <%= card.owner %>'s <%= card.event %> Invitaion!!! 
+</p>
+
+<a href="/view/userhomepage">
+	<button id="backbutton">
+		<div id="backtext">
+			Back to Homepage!
+		</div>
+	</button>
+</a>
+
+<%- include ("partials/footer") %>

@@ -1,0 +1,25 @@
+<%- include ("partials/header") %>
+
+<link rel="stylesheet" type="text/css" href="/viewinvitees.css">
+<div id="main">
+	<p id="event">
+		<%= card.event %>
+	</p>
+	<% for(var i = 0; i < 5; i ++){ %>
+		<div id="sub">
+			<%= card.pplInvited[i].name %>    :  <%= card.pplInvited[i].stat %>
+		</div>
+	<% } %>
+</div>	
+	<div>
+		<a href="/<%= card.owner %>/createdcards">
+			<button>
+				<div>
+					Back
+				</div>
+			</button>
+		 </a>
+	</div>
+
+
+<%- include ("partials/footer") %>

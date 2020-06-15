@@ -1,0 +1,74 @@
+<%- include ("partials/header") %>
+
+<link rel="stylesheet" type="text/css" href="/userhomepage.css">
+
+<h1 id="welcometext">
+	Welcome back <%= username %> . . .
+</h1>
+
+<div class="card">
+  <div class="container">
+	  <img src="https://tse3.mm.bing.net/th?id=OIP.D4CfJH9NGQ3Xw73lS0ORowHaHa&pid=Api&P=0&w=300&h=300" alt="Avatar" style="width:100%">
+	 <a href="/<%= username %>/viewinvites">
+		<button>
+			<div class="text">
+				View Invites
+			</div>
+		</button>
+	 </a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="container">
+	  <img src="https://tse4.mm.bing.net/th?id=OIP.rKwpZJpsfDM5F1ySf57hFQHaHa&pid=Api&P=0&w=300&h=300" alt="Avatar" style="width:100%">
+      <a href="/<%= username %>/createdcards">
+		<button id="splbutton">
+			<div class="text">
+				View Created Cards
+			</div>
+		</button>
+	 </a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="container">
+	  <img src="https://tse1.mm.bing.net/th?id=OIP.lHjIZpuMCyuP7w1jeSWcIwHaEK&pid=Api&P=0&w=272&h=154" alt="Avatar" style="width:100%">
+   <a href="/<%= username %>/new">
+		<button>
+			<div class="text">
+				Create Card
+			</div>
+		</button>
+	 </a>
+  </div>
+</div>
+
+<div class="card" id="accepted">
+  <div class="container">
+	  <img src="http://www.funtasticecards.com/postcard/images/invite-accepted-card-black-and-white-gold-hearts.gif" alt="Avatar" style="width:100%">
+   <a href="/<%= username %>/stat/acceptedinvites">
+		<button>
+			<div class="text">
+				Accepted Cards
+			</div>
+		</button>
+	 </a>
+  </div>
+</div>
+
+<div class="card" id="declined">
+  <div class="container">
+	  <img src="http://www.euenglish.hu/wp-content/uploads/2015/12/Refuse2.jpg" alt="Avatar" style="width:100%">
+   <a href="/<%= username %>/stat/declinedinvites">
+		<button>
+			<div class="text">
+				Declined Cards
+			</div>
+		</button>
+	 </a>
+  </div>
+</div>
+
+<%- include ("partials/footer") %>

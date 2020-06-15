@@ -1,0 +1,57 @@
+<%- include ("partials/header") %>
+
+<link rel="stylesheet" type="text/css" href="/viewinvitation.css">
+
+<p id="headtext">
+	Your Invitations . . .
+</p>
+
+<% cards.forEach(function(card){ %>
+	<div>
+		<p id="event">
+			<%= card.event %>
+		</p>
+		<p class="cardtexts">
+			Venue: <%= card.venue %>
+		</p>
+		<p class="cardtexts">
+			Time  : <%= card.time %>
+		</p>
+		<p class="cardtexts">
+			Date  : <%= card.date %>
+		</p>
+		<p>
+			<a href="/<%= username %>/<%= card._id %>/stat/accepted">
+				<button id="accept">
+					<div id="accepttext">
+						Accept
+					</div>
+				</button>
+			 </a>
+			<a href="/<%= username %>/<%= card._id %>/stat/declined">
+				<button id="decline">
+					<div id="declinetext">
+						Decline
+					</div>
+				</button>
+			 </a>
+		</p>
+		<a href="/<%= card._id %>/view">
+			<button>
+				<div id="text">
+					View
+				</div>
+			</button>
+		 </a>
+	</div>
+<% }); %>
+
+<a href="/view/userhomepage">
+	<button id="backbutton">
+		<div id="backtext">
+			Back to Homepage!
+		</div>
+	</button>
+</a>
+
+<%- include ("partials/footer") %>

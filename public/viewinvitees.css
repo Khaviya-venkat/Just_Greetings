@@ -1,0 +1,36 @@
+#main{
+	margin-top: 20px;
+	background-color: #a56b46;
+	width: 20%;
+	margin-left: 40%;
+	font-family: Architects Daughter;
+}
+
+#event{
+	font-size: 20px;
+	/* padding-left: 26%;*/
+	padding-top: 20px;
+	text-align: center;
+}
+
+#sub{
+	background-color: #f6cfab; 
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 17px;
+}
+
+button{
+	width: 20%;
+	height: 30px;
+	background-color: #a56b46;
+	border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: 40%;
+	margin-top: 20px;
+}

@@ -1,0 +1,37 @@
+<%- include ("partials/header") %>
+
+<link rel="stylesheet" type="text/css" href="/createdcards.css">
+
+
+<% cards.forEach(function(card){ %>
+	<div>
+		<p id="event">
+			<%= card.event %>
+		</p>
+		<p class="cardtexts">
+			Venue: <%= card.venue %>
+		</p>
+		<p class="cardtexts">
+			Time  : <%= card.time %>
+		</p>
+		<p class="cardtexts">
+			Date  : <%= card.date %>
+		</p>
+			<a href="/<%= card._id %>/view">
+				<button>
+					<div id="text">
+						View
+					</div>
+				</button>
+			 </a>
+			<a href="/<%= card._id %>/view/invitees">
+				<button id="splbutton">
+					<div id="spltext">
+						View Invitees
+					</div>
+				</button>
+			 </a>
+	</div>
+<% }); %>
+
+<%- include ("partials/footer") %>

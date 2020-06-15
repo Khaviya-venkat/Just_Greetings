@@ -1,0 +1,42 @@
+<%- include ("partials/header") %>
+
+<link rel="stylesheet" type="text/css" href="/new.css">
+
+<h3>
+	Give Us Some Details About The Event...
+</h3>
+  <form action="/<%= username %>/new" method="POST">
+	<p>
+		<input type="text" name="yourname" placeholder="Enter your username">
+	</p>  
+	<p>
+		<input type="text" name="event" placeholder="Your event">
+	</p>  
+    <input type="text" name="venue" placeholder="Venue">
+	<p>
+		<input type="text" name="time" placeholder="hh : mm">
+	</p>
+	<p>
+		<input type="text" name="date" placeholder="dd / mm / yy">
+	</p>  
+	<p>
+		<input type="text" name="invitee1" placeholder="Invitee name">
+	</p>   
+	<p>
+		<input type="text" name="invitee2" placeholder="Invitee name">
+	</p>   
+	<p>
+		<input type="text" name="invitee3" placeholder="Invitee name">
+	</p>   
+	<p>
+		<input type="text" name="invitee4" placeholder="Invitee name">
+	</p>     
+	<p>
+		<input type="text" name="invitee5" placeholder="Invitee name">
+	</p>     
+    <button>
+		Done!
+	</button>
+  </form>
+
+<%- include ("partials/footer") %>

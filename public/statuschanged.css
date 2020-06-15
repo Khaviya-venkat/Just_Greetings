@@ -1,0 +1,31 @@
+#heading{
+	font-family: Architects Daughter;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 40px;
+}
+
+button{
+	width: 30%;
+	height: 30px;
+	background-color: #a56b46;
+	border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 35%;
+}
+
+#backbutton{
+	width: 20%;
+	height: 30px;
+	margin-left: 40.5%;
+}
+
+#backtext{
+	padding-left: 12%;
+	padding-right: 10%;
+	width: 200px;
+}

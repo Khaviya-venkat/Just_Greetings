@@ -1,0 +1,65 @@
+body{
+	background-color: #f8f8f8;
+}
+
+#signup{
+	font-size: 17px;
+	font-family: Architects Daughter;
+	text-decoration: none;
+	float: left;
+	padding-left: 3%;
+}
+
+.keys{
+	font-size: 17px;
+	font-family: Architects Daughter;
+	text-decoration: none;
+	float: right;
+	padding-right: 3%;
+}
+
+h1{
+	font-size: 50px;
+	font-family: Architects Daughter;
+	padding-top: 30px;
+	padding-left: 40%;
+	margin-bottom: 0;
+}
+
+#tagLine{
+	font-size: 15px;
+	font-family: Architects Daughter;
+	padding-left: 42%;
+	margin-bottom: 30px;
+}
+
+#homeBg{
+	background: url(https://ae01.alicdn.com/kf/HTB1Q_rVvrSYBuNjSspfq6AZCpXaw/Creative-Mini-Greeting-Cards-Handmade-Colorful-Wood-Ornament-Kids-Greeting-Cards-For-Birthday-Friend.jpg);
+	height: 500px;
+	background-size: cover; 
+	background-position: center;
+}
+
+#textBelowTagLine{
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	        	 0px 8px 13px rgba(0,0,0,0.1),
+	        	 0px 18px 23px rgba(0,0,0,0.1);	
+	color: black;
+	font-size: 80px;
+	padding-top: 170px;
+	padding-bottom: 150px;
+	padding-right: 150px;
+	padding-left: 150px;
+	background-color: rgba(202, 204, 206, 0.2);
+	/* background: (128, 128, 128, 1); */
+}
+
+#tradeMark{
+	padding-left: 39.5%;
+	padding-top: 60px;
+}
+
+#createdBy{
+	padding-left: 41%;
+}
